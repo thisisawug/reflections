@@ -1,0 +1,52 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It's save much time just looking for typo or unexpected
+	changes.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	- I can find bugs by comparing older files.
+	- I can easily replace code to older and safe version
+	  if the latest file includes a critical bug.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros:
+	- I can go back and  older function or feature if I commit
+      when I add or fix a function.
+	- I can determine what a version means.
+	  いちバージョンが何を示すか自分で決定できること
+	cons:
+	- I possibly forget to commit.
+	- It's difficult to define logical rule to commit, and
+	  it might not work well in a team.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git was firstly made for version control in software engineering, that holds
+    many files, so it's more useful to commit multiple files in one commit.
+
+	On the other hand, Google Docs was made for managing versions when users
+	updating a document at the same time, so it's more useful to treat each file separately.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log  : to see commits of a file with commit IDs and comments
+	git diff x y : to compare difference between commit x and y
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It make me confident to enable to go back older version anytime.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try..
+	 1) starting my weekend project (cookie evaluator)
+	 2) collaborating with others to translate 'HP and the Methods of Rationality'
+	    by sharing the repository
