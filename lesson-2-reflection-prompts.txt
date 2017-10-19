@@ -18,6 +18,8 @@ organized? How would branches help?
   parallel without affecting the master and other functions under construction.
 
 How do the diagrams help you visualize the branch structure?
+  They help me to clarify the commit which each branch or commit has made,
+  so I can understand reachability of each commit.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
