@@ -23,6 +23,10 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+  By merging two branches together, we can integrate changes of two Branches
+  into single files.The diagram helps us to clarify when the branch is made and
+  merged. In Git, We can refer the diagram of commits by using the command that
+  is 'git log --graph --oneline' .
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
