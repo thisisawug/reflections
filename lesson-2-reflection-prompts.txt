@@ -1,43 +1,45 @@
 What happens when you initialize a repository? Why do you need to do it?
-  I made a new master branch for starting version controll of files.
+  - A new master branch is made when an user initializes a repository.
+    It's necessary to start version controlling of files.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-  The staging area is valuable to manage what to commit in a single commit.
-
+  - The staging area is valuable to manage what to commit in one commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-  By comparing the staged files and that of working directory and repository,
-  I check what to commit and not, then I can be sure the commit is appropriate.
+  - By comparing the staged files, working directory and repository, it's
+    possible to check what to commit. Then we can be sure that the commit is
+    appropriate.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-  Branches would be helpful to make a new function without changing released
-  steady version, furthermore, they also help to make some functions in
-  parallel without affecting the master and other functions under construction.
+  - Branches would be helpful to make a new function without changing released
+    stable version, furthermore, they also help to make some functions in
+    parallel without affecting the master and other functions under construction.
 
 How do the diagrams help you visualize the branch structure?
-  They help me to clarify the commit which each branch or commit has made,
-  so I can understand reachability of each commit.
+  - Diagrams helps to clarify when each branch or commit has made, so we
+    understand reachability of each commit.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-  By merging two branches together, we can integrate changes of two Branches
-  into single files.The diagram helps us to clarify when the branch is made and
-  merged. In Git, We can refer the diagram of commits by using the command that
-  is 'git log --graph --oneline' .
+  - By merging two branches together, we can integrate changes of two Branches
+    into single files. The diagram helps us to clarify when the branch is made and
+    merged.
+
+    git log --graph --oneline : the Git command to show the diagram of commits
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
   [automatic merging]
     pros:
-      - It takes less time (, then we can save much time).
+      - It takes less time.
       - It avoids to penetrate human error caused by manual merging.
     cons:
       - We can't use it if there is an conflict.
   [manual merging]
     pros:
-      - We can merge after understanding what the change is.
+      - We can merge with understanding what the change is.
     cons:
-      - We would make a mistake when we are doing merges.
+      - We would make an unexpected mistake when we merge.
