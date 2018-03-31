@@ -17,17 +17,17 @@ use one instead of another?
     - git clone:  copy a repository from GitHub to local, or local to local.
     - git branch: make another line to commit
 
-    I use 'git fork' instead of 'git clone' when I want to copy a repository
-    on GitHub.
-    I use 'git clone' instead of 'git fork' when I bring the repository to
-    my local machine.
+    - I use 'git fork' instead of 'git clone' when I want to copy a repository
+      on GitHub.
+    - I use 'git clone' instead of 'git fork' when I bring the repository to
+      my local machine.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    It is benefitial in the case that there are different changes between
-    the local repository and the remote. Having a copy of the remote enables
-    merger both changes easily and safely like merging branches.
+    - It is benefitial in the case that there are different changes between
+      the local repository and the remote. Having a copy of the remote enables
+      merger both changes easily and safely like merging branches.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
