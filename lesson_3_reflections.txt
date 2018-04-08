@@ -25,7 +25,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    - It is benefitial in the case that there are different changes between
+    - It is beneficial in the case that there are different changes between
       the local repository and the remote. Having a copy of the remote enables
       merger both changes easily and safely like merging branches.
 
@@ -33,12 +33,12 @@ How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
     - Easier:
-          - shareing a monitor and editing a same file like Visual Studio
+          - sharing a monitor and editing a same file like Visual Studio
             Live Share.
     - Harder:
-          - shareing files on the file server and modifying a file with taking
+          - sharing files on the file server and modifying a file with taking
             care not to conflict with others.
-          - using no tools and asking other collaboraters to merge what I
+          - using no tools and asking other collaborators to merge what I
             change only in meeting.
 
 When would you want to make changes in a separate branch rather than directly in
