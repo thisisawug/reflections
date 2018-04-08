@@ -44,4 +44,10 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    - make changes in a separate branch
+          - it is possible to make changes parallelly without affecting
+            each other.
+    - make changes directly in master
+          - it is easier to merge changes others are making and to merge
+            the changes I make without caring how I merge (fast-forward merge,
+            make a merge commit, or rebase).
